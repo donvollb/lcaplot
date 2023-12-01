@@ -8,7 +8,7 @@
 #' @examples
 
 
-lca_plot <- function(x) {
+lca_plot <- function(x, ...) {
 
   # create an empty object to store data into
   probs_data <- NULL
