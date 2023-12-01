@@ -2,13 +2,12 @@
 #'
 #' This function creates a plot from an estimated latent class solution created with the package {poLCA}. It uses the "probs"-Variables of the object.
 #' @param x the fitted object created by poLCA::poLCA()
-#' @param ... other arguments to be passed to plot()
 #' @return the LCA-plot
 #' @export
 #' @examples
 
 
-lca_plot <- function(x, ...) {
+lca_plot <- function(x) {
 
   # create an empty object to store data into
   probs_data <- NULL
@@ -49,8 +48,7 @@ lca_plot <- function(x, ...) {
     xaxt = "n",
     ylab = "Pr",
     xlab = "Items",
-    main = "Class profiles",
-    ...
+    main = "Class profiles"
   )
 
   # x-axis
