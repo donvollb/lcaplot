@@ -1,0 +1,15 @@
+Package: lcaplot
+Title: LCA-Plots
+Version: 1.0
+Authors@R: 
+    person(given = "Dominik",
+           family = "Vollbracht",
+           role = c("aut", "cre"),
+           email = "d.vollbracht@rptu.de",
+           comment = c(ORCID = "0000-0003-1040-7851"))
+Description: This package plots LCA-objects created by {poLCA}.
+License: use_gpl3_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
