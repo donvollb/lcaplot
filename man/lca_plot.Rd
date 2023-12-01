@@ -4,7 +4,7 @@
 \alias{lca_plot}
 \title{LCA-Plot}
 \usage{
-lca_plot(x)
+lca_plot(x, ...)
 }
 \arguments{
 \item{x}{the fitted object created by poLCA::poLCA()}
