@@ -4,10 +4,12 @@
 \alias{lca_plot}
 \title{LCA-Plot}
 \usage{
-lca_plot(x)
+lca_plot(x, ...)
 }
 \arguments{
 \item{x}{the fitted object created by poLCA::poLCA()}
+
+\item{...}{other arguments to be passed to plot()}
 }
 \value{
 the LCA-plot

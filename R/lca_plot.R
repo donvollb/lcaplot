@@ -50,7 +50,7 @@ lca_plot <- function(x, ...) {
     ylab = "Pr",
     xlab = "Items",
     main = "Class profiles",
-    .Primitive("list")
+    ...
   )
 
   # x-axis
